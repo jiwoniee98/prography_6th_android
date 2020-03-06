@@ -1,4 +1,4 @@
-package com.example.bottomnavigation;
+package com.example.prography_6th_android;
 
 public class Movie {
 

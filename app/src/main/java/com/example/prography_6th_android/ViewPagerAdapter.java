@@ -1,4 +1,4 @@
-package com.example.bottomnavigation;
+package com.example.prography_6th_android.;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -8,8 +8,6 @@ import android.widget.ImageView;
 
 import androidx.annotation.NonNull;
 import androidx.viewpager.widget.PagerAdapter;
-
-import com.example.prography_6th_android.R;
 
 import java.util.ArrayList;
 

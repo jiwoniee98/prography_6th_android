@@ -1,4 +1,4 @@
-package com.example.bottomnavigation;
+package com.example.prography_6th_android;
 
 import android.content.Context;
 import android.view.LayoutInflater;
@@ -14,11 +14,12 @@ import com.example.prography_6th_android.ViewHolder;
 import java.util.ArrayList;
 
 public class jsonAdapter extends RecyclerView.Adapter<ViewHolder> {
-    private ArrayList<com.example.bottomnavigation.Movie> dataList = null;
+    private ArrayList<Movie> dataList = null;
 
     jsonAdapter(ArrayList<Movie> dataList){
         this.dataList = dataList;
     }
+
 
     @NonNull
     @Override

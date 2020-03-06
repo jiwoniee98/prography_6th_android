@@ -1,4 +1,4 @@
-package com.example.bottomnavigation;
+package com.example.prography_6th_android;
 
 
 import androidx.annotation.NonNull;
@@ -79,7 +79,7 @@ public class MainActivity extends AppCompatActivity {
         @SuppressLint("WrongViewCast") RecyclerView recyclerView = (RecyclerView)findViewById(R.id.Num);
         LinearLayoutManager manager = new LinearLayoutManager(this, LinearLayoutManager.VERTICAL, false);
         recyclerView.setLayoutManager(manager);
-        recyclerView.setAdapter(new com.example.bottomnavigation.jsonAdapter(movieList));
+        recyclerView.setAdapter(new jsonAdapter(movieList));
 
         viewPager.setAdapter(new ViewPagerAdapter(this,list);
 
@@ -174,7 +174,7 @@ public class MainActivity extends AppCompatActivity {
 
                     Movie movie = new Movie();
 
-                    movie.setTitle(movieObject.getString("tiltle"));
+                    movie.setTitle(movieObject.getString("title"));
                     movie.setDirector(movieObject.getString("director"));
                     movie.setRelease_date(movieObject.getString("release_date"));
 
