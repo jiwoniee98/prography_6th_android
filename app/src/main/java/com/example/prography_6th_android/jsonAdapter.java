@@ -8,9 +8,6 @@ import android.view.ViewGroup;
 import androidx.annotation.NonNull;
 import androidx.recyclerview.widget.RecyclerView;
 
-import com.example.prography_6th_android.R;
-import com.example.prography_6th_android.ViewHolder;
-
 import java.util.ArrayList;
 
 public class jsonAdapter extends RecyclerView.Adapter<ViewHolder> {
